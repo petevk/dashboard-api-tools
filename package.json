@@ -1,7 +1,7 @@
 {
   "name": "@cisco-meraki/dashboard-api-tools",
   "author": "Cisco Meraki",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Typescript library for interacting with Meraki's public API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -46,7 +46,7 @@
     "url": "https://github.com/meraki/dashboard-api-tools/issues"
   },
   "homepage": "https://github.com/meraki/dashboard-api-tools#readme",
-  "dependencies": {
+  "peerDependencies": {
     "@reduxjs/toolkit": "^1.8.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
